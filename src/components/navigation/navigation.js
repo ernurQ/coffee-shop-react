@@ -1,19 +1,26 @@
-import {Nav} from "react-bootstrap";
-import logo from "../../resources/icon/coffee-beans.svg";
+import logoWhite from '../../resources/icon/coffee-beans-nav-logo-white.svg';
+import logoBlack from '../../resources/icon/coffee-beans-nav-logo-black.svg'
 
 import './navigation.scss'
 
-const Navigation = () => {
+const Navigation = (props) => {
+    const {variant} = props
+    const color = (variant === 'white' ? 'text-white' : 'text-black')
+    const logoImg = (variant === 'white' ? logoWhite : logoBlack)
 
     return (
-        <Nav className="ms-5 ps-3 me-auto navigation">
-            <Nav.Link href="#link" className={'text-white position-relative me-4'}>
-                <img src={logo} alt="logo coffee beans" className="navigation__logo-img"/>
-                <div className="navigation__logo-text text-white">Coffee house</div>
-            </Nav.Link>
-            <Nav.Link href="#link" className={'text-white me-4'}>Our coffee</Nav.Link>
-            <Nav.Link href="#link" className={'text-white me-4'}>For your pleasure</Nav.Link>
-        </Nav>
+        <div className="navigation d-flex">
+
+            <button className={'navigation__btn me-4 position-relative'}>
+                <img src={logoImg} alt="logo coffee beans" className="navigation__logo-img"/>
+                <div className={`navigation__logo-text ${color}`} >Coffee house</div>
+            </button>
+
+            <button className={`navigation__btn me-4 ${color}`}>Our coffee</button>
+
+            <button  className={`navigation__btn me-4 ${color}`}>For your pleasure</button>
+
+        </div>
     )
 }
 

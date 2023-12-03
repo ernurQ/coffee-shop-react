@@ -1,6 +1,6 @@
 import {Navbar, Container} from "react-bootstrap";
 
-import logo from '../../resources/icon/coffee-beans.svg'
+import logo from '../../resources/icon/coffee-beans-nav-logo-white.svg'
 import './navbar-coffee.scss'
 import Navigation from "../navigation/navigation";
 
@@ -16,7 +16,7 @@ const NavbarCoffee = () => {
 
                 <Navbar.Toggle className={'border-white'} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Navigation />
+                    <Navigation variant={'white'} />
                 </Navbar.Collapse>
 
             </Container>

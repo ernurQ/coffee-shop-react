@@ -1,0 +1,22 @@
+.about-info {
+  min-height: 500px;
+  padding: 70px 360px;
+
+  &__img {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .logo-beans {
+    margin-top: 20px;
+  }
+  &__text {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    white-space: pre-line;
+  }
+}

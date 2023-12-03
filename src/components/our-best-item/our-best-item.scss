@@ -1,0 +1,23 @@
+.our-best-item {
+  padding: 22px 20px;
+  min-height: 240px;
+  width: 220px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.65);
+
+  &__img {
+    height: 130px;
+    width: 150px;
+    object-fit: none;
+  }
+  &__description {
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &__price {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

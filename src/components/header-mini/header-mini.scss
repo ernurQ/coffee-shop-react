@@ -1,0 +1,10 @@
+.header-mini {
+  min-height: 260px;
+  background: url("../../resources/background/header-mini-background.png") center center / cover no-repeat;
+  padding-top: 130px;
+
+  &__content {
+    font-size: 40px;
+    font-weight: 700;
+  }
+}

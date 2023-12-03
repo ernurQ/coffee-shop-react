@@ -1,0 +1,9 @@
+.products-list {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  min-height: 670px;
+  padding-bottom: 30px;
+
+  list-style: none;
+}
+

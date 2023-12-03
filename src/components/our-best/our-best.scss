@@ -1,0 +1,14 @@
+.our-best {
+  padding: 80px 0 110px;
+  min-height: 495px;
+  background: url("../../resources/background/our-best-background.png") center center / cover no-repeat;
+
+  &__title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  &__products {
+    margin-top: 40px;
+  }
+}

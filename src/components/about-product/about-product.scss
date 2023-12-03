@@ -1,0 +1,41 @@
+.about-product {
+  min-height: 500px;
+  padding: 70px 0 30px;
+
+  &__img {
+    height: 355px;
+    object-fit: none;
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .logo-beans {
+    margin-top: 20px;
+  }
+  &__country {
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    span {
+      font-weight: 400;
+    }
+  }
+  &__description {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    span {
+      font-weight: 400;
+    }
+  }
+  &__price {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    span {
+      font-size: 24px;
+      font-weight: 400;
+    }
+  }
+}

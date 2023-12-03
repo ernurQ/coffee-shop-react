@@ -1,0 +1,11 @@
+.navbar {
+  height: 80px;
+  font-size: 12px;
+  font-weight: 400;
+
+  &__logo-img {
+    position: absolute;
+    top: -13px;
+    left: -22px;
+  }
+}

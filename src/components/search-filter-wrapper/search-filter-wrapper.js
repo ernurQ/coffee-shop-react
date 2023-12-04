@@ -5,13 +5,13 @@ import Filter from "../filter/filter";
 import {Container} from "react-bootstrap";
 
 const SearchFilterWrapper = (props) => {
-    const {setSearchInputValue} = props
+    const {setSearchInputValue, setFilterValue} = props
 
     return (
         <div className="search-filter-wrapper">
             <Container className={'d-flex justify-content-between'}>
                 <Search setSearchInputValue={setSearchInputValue} />
-                <Filter />
+                <Filter setFilterValue={setFilterValue} />
             </Container>
         </div>
     )

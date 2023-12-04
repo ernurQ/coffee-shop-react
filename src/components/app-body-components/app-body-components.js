@@ -37,6 +37,9 @@ class CoffeePage extends Component{
     setSearchInputValue = (value) => {
         this.setState({searchInputValue: value})
     }
+    setFilterValue = (value) => {
+        this.setState({filterValue: value})
+    }
 
     filterTitle = (array, value) => {
         if (array.length === 0 || value === '') {
@@ -45,21 +48,30 @@ class CoffeePage extends Component{
         return array.filter( ({title}) => title.indexOf(value) > -1 )
     }
 
+    filterCountry = (array, value) => {
+        if (array.length === 0 || value === '') {
+            return array
+        }
+        return array.filter( ({country}) => country.indexOf(value) > -1 )
+    }
 
     render() {
         const {openCoffeeItemPage} = this.props
-        const {searchInputValue} = this.state
+        const {searchInputValue, filterValue} = this.state
 
         const aboutInfoData = aboutService.getAboutOurBeansData()
         const products = productService.getAllProducts()
-        const filteredProducts = this.filterTitle(products, searchInputValue)
+        const filteredProducts = this.filterCountry(this.filterTitle(products, searchInputValue), filterValue)
 
         return (
             <>
                 <HeaderMini text={'Our Coffee'} />
                 <AboutInfo data={aboutInfoData} />
                 <Deliminator />
-                <SearchFilterWrapper setSearchInputValue={this.setSearchInputValue} />
+                <SearchFilterWrapper
+                    setSearchInputValue={this.setSearchInputValue}
+                    setFilterValue={this.setFilterValue} />
+
                 {filteredProducts.length === 0 ?
                     null : <ProductsList data={filteredProducts} openCoffeeItemPage={openCoffeeItemPage} />}
             </>

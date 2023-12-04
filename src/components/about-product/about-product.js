@@ -4,7 +4,7 @@ import {Container, Row} from "react-bootstrap";
 import './about-product.scss'
 
 const AboutProduct = (props) => {
-    const {img, alt, country, description, price} = props
+    const {data: {img, alt, country, description, price}} = props
 
     return (
         <section className={'about-product bg-white d-flex justify-content-between'}>

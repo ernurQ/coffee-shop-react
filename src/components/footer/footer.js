@@ -3,11 +3,12 @@ import LogoBeans from "../logo-beans/logo-beans";
 
 import './footer.scss'
 
-const Footer = () => {
+const Footer = (props) => {
+    const {setPage} = props
 
     return (
         <footer className={'footer'}>
-            <Navigation variant={'black'} />
+            <Navigation variant={'black'} setPage={setPage} />
             <LogoBeans variant={'black'} />
         </footer>
     )

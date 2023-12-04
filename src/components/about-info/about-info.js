@@ -3,7 +3,7 @@ import LogoBeans from "../logo-beans/logo-beans";
 import './about-info.scss'
 
 const AboutInfo = (props) => {
-    const {img, alt, title, text} = props
+    const {data: {img, alt, title, text}} = props
 
     return (
         <section className={'about-info bg-white text-center d-flex justify-content-between'}>

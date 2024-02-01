@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/coffee-shop/static/css/main.b07f4e86.css",
+    "main.js": "/coffee-shop/static/js/main.7df0c7a2.js",
+    "static/media/our-best-background.png": "/coffee-shop/static/media/our-best-background.185517d358a5e86f1d28.png",
+    "static/media/header-main-background.png": "/coffee-shop/static/media/header-main-background.8408a73e874f04a2fed9.png",
+    "static/media/header-mini-background.png": "/coffee-shop/static/media/header-mini-background.77078c9e0edc247e033d.png",
+    "static/media/coffee-aromistico.jpg": "/coffee-shop/static/media/coffee-aromistico.dda6c8c9bdabbccd1808.jpg",
+    "static/media/Merienda-Bold.ttf": "/coffee-shop/static/media/Merienda-Bold.76d9f2307e1f47336045.ttf",
+    "static/media/Merienda-Regular.ttf": "/coffee-shop/static/media/Merienda-Regular.69f026d4d19f0083af71.ttf",
+    "static/media/girl-with-cup.jpg": "/coffee-shop/static/media/girl-with-cup.7495420333689d066d26.jpg",
+    "static/media/cup-with-coffee.png": "/coffee-shop/static/media/cup-with-coffee.6568d51aa20485987f1d.png",
+    "static/media/best-item-3-img.png": "/coffee-shop/static/media/best-item-3-img.abb45c1ba257a5364ef1.png",
+    "static/media/best-item-1-img.png": "/coffee-shop/static/media/best-item-1-img.25d5ad4a54bdd9afbde4.png",
+    "static/media/best-item-2-img.png": "/coffee-shop/static/media/best-item-2-img.7d9f028b14b6f1708735.png",
+    "static/media/coffee-beans-nav-logo-white.svg": "/coffee-shop/static/media/coffee-beans-nav-logo-white.8e431abb02715f191dc18dc7fb4255a5.svg",
+    "static/media/coffee-beans-nav-logo-black.svg": "/coffee-shop/static/media/coffee-beans-nav-logo-black.41fddfd052511fa362a06b184efd4ae5.svg",
+    "static/media/coffee-beans-white.svg": "/coffee-shop/static/media/coffee-beans-white.e5a6c15a154cb01e010094b0e363330e.svg",
+    "static/media/coffee-beans-black.svg": "/coffee-shop/static/media/coffee-beans-black.529d42b189290258cc694877834c7584.svg",
+    "index.html": "/coffee-shop/index.html",
+    "main.b07f4e86.css.map": "/coffee-shop/static/css/main.b07f4e86.css.map",
+    "main.7df0c7a2.js.map": "/coffee-shop/static/js/main.7df0c7a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b07f4e86.css",
+    "static/js/main.7df0c7a2.js"
+  ]
+}
